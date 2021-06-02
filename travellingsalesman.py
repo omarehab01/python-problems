@@ -47,7 +47,7 @@ def next_perm(l):
         right -= 1
     return True
 
-graph = [[0,10,15,20], [10,0,35,25], [15,35,0,30], [20,25,30,0]]
+graph = [[0,10,15,20], [5,0,9,10], [6,13,0,12], [8,8,9,0]]
 s = 0
 res = travelling_salesman_function(graph,s)
 print(res)
